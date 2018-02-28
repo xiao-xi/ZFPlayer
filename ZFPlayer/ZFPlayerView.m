@@ -495,7 +495,7 @@ typedef NS_ENUM(NSInteger, PanDirection){
         case AVAudioSessionRouteChangeReasonOldDeviceUnavailable: {
             // 耳机拔掉
             // 拔掉耳机继续播放
-            [self play];
+            [self pause];
         }
             break;
             
